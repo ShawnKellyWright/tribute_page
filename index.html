@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stan Lee - Tibute Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<!-- The following is body section, which is a freeCodeCamp project. It is the 2nd project, Build a Tribute Page, under Responsive Web Design Cetification.  -->
+
+<body>
+    <main id="main">
+        <h1 id="title">Stan Lee</h1>
+        <p>The visionary of Living Fantasy</p>
+        <figure id="img-div">
+            <img id="image" src="https://live.staticflickr.com/65535/52399987665_4ffcce3f3b_b.jpg"
+                alt="Image of Stan Lee Writer and editor of Marvel Comics">
+            <figcaption id="img-caption">
+                <strong>Stan Lee: </strong> Marvel Comics writer, editor, publisher, and producer of Marvel Comics.
+                Co-created Spider-Man, Iron Man Thor, Hulk, Ant-Man, the Wasp, Fantastick Four Black Panther, Daredevil,
+                Doctor Strange, and others.
+            </figcaption>
+
+            <hr>
+
+            <section id="tribute-info">
+                <h3 id="headline">Here are some of Stan Lee's most famous Comic Books: </h3>
+                <ul>
+                    <li id="cover">Spider-Man! (Amazing Fantasy #15)<a
+                            href="https://viewcomics.me/amazing-fantasy-1962/issue-15/1"><img
+                                src="https://13thdimension.com/wp-content/uploads/2018/11/Spider-Man-580x871.jpg"
+                                alt="Front cover of Spiderman's first appearance in a comic book Amazing Fantasy number 15 August 15, 1962 cover and read free" /></a>
+                    </li>
+                    <li id="cover">The Fantastic Four (Fantastic Four
+                        #1)<a href="https://viewcomics.me/fantastic-four-1961/issue-1/1"> <img
+                                src="https://13thdimension.com/wp-content/uploads/2018/11/ff001_cover-580x865.jpg"
+                                alt="The Fantastic Four first comic book cover and read free" /></a>
+                    </li>
+                    <li id="cover">The Coming of the Hulk (Incredible Hulk #1)<a
+                            href="https://comiconlinefree.net/the-incredible-hulk-1962/issue-1/1"> <img
+                                src="https://13thdimension.com/wp-content/uploads/2018/11/The-Coming-of-the-Hulk-580x892.jpg"
+                                alt="The incredible Hulk first comic book cover and read free" /></a>
+                    </li>
+                    <li id="cover">Captain America Joins… the Avengers (Avengers <br>#4)<a
+                            href="https://comiconlinefree.net/the-avengers-1963/issue-4"> <img
+                                src="https://13thdimension.com/wp-content/uploads/2018/11/Captain-America-Joins-The-Avengers.jpg"
+                                alt="The Avengers number 4 comic book where Captain America joins the Avengers cover and read free" /></a>
+                    </li>
+                    <li id="cover">The Good, the Bad and the Uncanny (Silver Surfer #4) <a
+                            href="https://50yearoldcomics.com/2018/11/18/silver-surfer-4-february-1969/"> <img
+                                src="https://13thdimension.com/wp-content/uploads/2018/11/The-Good-The-Bad-and-The-Uncanny-580x875.jpg"
+                                alt="Siver Surfer vs Thor Comic book cover and read free" /></a>
+                    </li>
+                    <li id="cover">The Origin of Daredevil (Daredevil #1)<a
+                            href="https://www.marvel.com/comics/issue/8073/daredevil_1964_1"> <img
+                                src="https://13thdimension.com/wp-content/uploads/2018/11/Origin-of-Daredevil-580x885.jpg"
+                                alt="Daredevil comic book cover number 1 and read free" /></a>
+                    </li>
+                </ul>
+
+                <hr>
+
+                <div class="marvel_logo">
+                    <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Marvel_Logo.svg/800px-Marvel_Logo.svg.png">
+                </div>
+
+                <blockquote cite="https://seancroxton.com/quote-of-the-day/742/">
+                    <p>
+                        "If you have an idea that you genuinely think is good, don’t let some idiot talk you out of it."
+                    </p>
+                    <cite>-- <strong>Stan Lee</strong></cite>
+                </blockquote>
+
+                <div class="end-section">
+                    <h3>
+                        You should make time to read more about this Renaissance man on
+                        <button id="btn">
+                            <a id="tribute-link" href="https://en.wikipedia.org/wiki/Stan_Lee"
+                                target="_blank"><strong>Wikipedia</strong>
+                                <img id="shield"
+                                    src="data:image/png;base64,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">
+                            </a>
+                        </button>
+                    </h3>
+
+                    <footer>
+                        <p>copyright &copy 2022 codeWright <button id="btn"><a
+                                    href="https://github.com/ShawnKellyWright" target="_blank"> <img class="github"
+                                        src="images/Octocat_blue.svg" alt="Github logo Octocat" /></a></button> </p>
+                    </footer>
+                </div>
+
+            </section>
+
+        </figure>
+
+    </main>
+
+    <!-- Following is javascript section. Plays Stan Lee audio clip saying: "Excelsior!", when Wikipedia button is pushed-->
+    <script>
+        const btn = document.getElementById("btn");
+
+        btn.onclick = () => {
+            // Here you will add path to local file you have
+            const audio = new Audio(
+                "stan_lee_excelsior.mp3"
+            );
+
+            audio.play();
+        };
+    </script>
+
+</body>
+
+</html>
