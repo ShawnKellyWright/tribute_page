@@ -75,7 +75,21 @@ img {
 .marvel_logo {
   max-width: 600px;
   margin: auto;
+  animation-name: rotate;
+  animation-duration: 30s;
+  transform-style: preserve-3d;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 } 
+
+@keyframes rotate {
+  0% {
+    transform: rotate3d(0, 0, 0, 0);
+  }
+  100% {
+    transform: rotate3d(0, 1, 0, 360deg);
+  }
+}
 
 #img-caption {
   margin: 15px 0 5px 0;
