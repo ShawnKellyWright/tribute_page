@@ -14,6 +14,7 @@ body {
   text-align: center;
   color: #333;
   margin: 0;
+  /* overflow-x: hidden; */
 }
 
 h1 {
@@ -160,12 +161,14 @@ button {
 .end-section {
   background-color: #ee171f;
   color: #ffffff;
+  display: block;
+  /* margin: -30px; */
   padding: 50px;
 }
 
 footer {
-  margin: 15px;
- margin-top: 50px; 
+ /* margin: 15px; */
+ margin-top: 50px;
 }
 
 .github {
