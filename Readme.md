@@ -4,7 +4,7 @@ This is a freeCodeCamp project under the Responsive Web Design Certification. <b
 It is the 2nd Project. <br>
 Click here to check it out: => https://shawnkellywright.github.io/tribute_page/ <br>
 
-The following is the parameters that had to be met. Fyi: I decided to use Stan Lee for my Tribute Page. <br>
+The following is the parameters that had to be met. (Fyi: I decided to use Stan Lee for my Tribute Page.) <br>
 
 Objective: Build an app that is functionally similar to https://tribute-page.freecodecamp.rocks  <br>
 
@@ -19,7 +19,7 @@ You should see an element with a corresponding id="tribute-info", which contains
 You should see an a element with a corresponding id="tribute-link", which links to an outside site, that contains additional information about the subject of the tribute page. HINT: You must give your element an attribute of target and set it to _blank in order for your link to open in a new tab
 Your #image should use max-width and height properties to resize responsively, relative to the width of its parent element, without exceeding its original size
 Your img element should be centered within its parent element
-Fulfill the user stories and pass all the tests below to complete this project. Give it your own personal style. Happy Coding!
+Fulfill the user stories and pass all the tests below to complete this project. Give it your own personal style.<br>Happy Coding!
 
-Thanks,
+Thanks, <br>
 Shawn Wright
