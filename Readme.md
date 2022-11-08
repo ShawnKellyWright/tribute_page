@@ -1,12 +1,12 @@
 # tribute_page # tribute_page
 
-This is a freeCodeCamp project under the Responsive Web Design Certification. 
-It is the 2nd Project. fd
-Click here to check it out: => https://shawnkellywright.github.io/tribute_page/
+This is a freeCodeCamp project under the Responsive Web Design Certification. <br>
+It is the 2nd Project. <br>
+Click here to check it out: => https://shawnkellywright.github.io/tribute_page/ <br>
 
-The following is the parametors that had to be met. Fyi: I decided to use Stan Lee for my Tribute Page.
+The following is the parameters that had to be met. Fyi: I decided to use Stan Lee for my Tribute Page. <br>
 
-Objective: Build an app that is functionally similar to https://tribute-page.freecodecamp.rocks
+Objective: Build an app that is functionally similar to https://tribute-page.freecodecamp.rocks  <br>
 
 User Stories:
 
